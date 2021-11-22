@@ -31,3 +31,85 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.obal{
+    display:flex;
+    flex-direction:column;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    height: 10%;
+
+}
+p {
+    padding-inline: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.hlavni {
+    display:flex;
+    flex-direction: row;
+    background-image: url("images/pozadi.jpg");
+    color:white;
+
+}
+.telefon {
+    float: left;
+    padding-top: 80px;
+}
+.super {
+    font-size: 5rem;
+    padding-left: 30px;
+}
+.text {
+    font-size: 2.5rem;
+}
+.tlacitka {
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+.tlacitko{
+    padding:0px;
+}
+a {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+ a:hover {
+        background-color: #48418e;
+    }
+
+.zapati {
+    background-color: #48418e;
+    color:white;
+    text-align:center;
+    height: 50px;
+}
+.textz{
+    padding-top: 0px;
+    padding-bottom:20px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.detaily {
+    text-align: center;
+    padding-top: 30px;
+}
+.triobrazky {
+    width: 80px;
+    height: 80px;
+    
+}
+h2 {
+    color: #48418e;
+    font-size: 1.25rem;
+}
